@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Croissant One', cursive;
+}
+
+.encabezado{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #24272B;
+    margin: 0;
+    background: linear-gradient(#24272B, #4A525A);  
+}
+.logo{
+    margin: 0;
+    width: 100px;
+}
+
+.logo:hover{
+    transform:scale(2);
+}
+
+.login{
+    width: 50px;
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    color: #ecb315 !important;
+}
+
+a:hover{
+    transform: scale(1.05);
+    font-size: 27px;
+    background: linear-gradient(white, #4A525A);
+    text-shadow: 0px 3px 6px white;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.img-foto{
+    width: 60px;
+}
+
+.img:hover{
+    background: linear-gradient(white, #4A525A);
+    transform: scale(1);
+    padding: 0;
+}
+
+
+.container-principal{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.container-principal div{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+   
+}
+
+.videito{
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel-item video{
+   width: 100%;
+   height: 100%;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.final{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#24272B, #4A525A);
+}
+
+.politicas{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+@media (max-width: 480px) or (max-width:768px) {
+
+    .login{
+        width:30px;
+    }
+    
+    .menu{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 0;
+    }
+    
+    a{
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        font-weight:bold;
+        color: #ecb315 !important;
+    }
+
+
+
+    .container-principal{
+        width: 100%;
+        height: 75vh; 
+    }
+
+    .container-principal div{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .carousel{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .carousel-item {
+        height: 100%;
+        width: 50%;
+       
+    }
+
+    .videito{
+        margin-top: 150px;
+        height: 50%;
+        width: 30%;
+    }
+    
+    .carousel-item video{
+       width: 30%;
+       height: 100%;
+    }
+    
+    .carousel-item img{
+        border-radius: 10px;
+        margin: 100px 100px 30px 50px;        
+        width: 80%;
+        height: 60%;
+    }
+
+    .final{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+    }
+
+    .politicas{
+        margin-left: 10px;
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .text-politicas{
+        font-size: 12px;
+    }
+    
+    .redes{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        gap: 2px;
+        margin: 0;
+    }
+
+    .img-foto{
+        width: 20px;
+    }
+    
+}
+
